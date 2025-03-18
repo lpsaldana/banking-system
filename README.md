@@ -27,7 +27,7 @@ To run the project locally:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/banking-system.git
+   git clone https://github.com/lpsaldana/banking-system.git
    ```
 2. Navigate to the project directory and start each microservice in order:
    ```sh

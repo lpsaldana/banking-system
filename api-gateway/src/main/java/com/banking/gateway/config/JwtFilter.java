@@ -32,7 +32,7 @@ public class JwtFilter extends AbstractGatewayFilterFactory<JwtFilter.Config> {
 
             // Check for Authorization header
             String authHeader = exchange.getRequest().getHeaders().getFirst(HttpHeaders.AUTHORIZATION);
-            if (!authHeader.startsWith("Bearer ")) {
+            if (authHeader == null || !authHeader.startsWith("Bearer ")) {
                 return unauthorized(exchange);
             }
 

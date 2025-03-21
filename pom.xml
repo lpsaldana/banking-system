@@ -14,7 +14,7 @@
     <module>api-gateway</module>
     <module>customer-service</module>
     <module>product-service</module>
-    <!--<module>transaction-service</module>-->
+    <module>transaction-service</module>
   </modules>
 
   <properties>

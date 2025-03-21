@@ -15,7 +15,7 @@ import org.springframework.data.relational.core.mapping.Table;
 @Table("customers")
 public class Customer {
     @Id
-    private Long ID;
+    private Long id;
     private String username;
     private String name;
     @Column("middle_name")

@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 @Table("products")
 public class Product {
     @Id
-    private Long ID;
+    private Long id;
     private Long customerId;
     private ProductType type;
     private BigDecimal balance;
